@@ -2,15 +2,15 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
 import {OverlayModule} from '@angular/cdk/overlay';
-import {CdkOverlayBasicExample} from './cdk-overlay-basic-example';
+import {OverlayExample} from './overlay-example';
 
 @NgModule({
-  declarations: [CdkOverlayBasicExample],
+  declarations: [OverlayExample],
   imports: [
     BrowserModule,
     OverlayModule
   ],
   providers: [],
-  bootstrap: [CdkOverlayBasicExample],
+  bootstrap: [OverlayExample],
 })
 export class AppModule {}

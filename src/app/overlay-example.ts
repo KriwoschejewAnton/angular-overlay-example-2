@@ -4,11 +4,11 @@ import {Component} from '@angular/core';
  * @title Overlay basic example
  */
 @Component({
-  selector: 'cdk-overlay-basic-example',
-  templateUrl: './cdk-overlay-basic-example.html',
-  styleUrls: ['./cdk-overlay-basic-example.css'],
+  selector: 'overlay-example',
+  templateUrl: './overlay-example.html',
+  styleUrls: ['./overlay-example.css'],
 })
-export class CdkOverlayBasicExample {
+export class OverlayExample {
   isOpen = false;
 }
 
